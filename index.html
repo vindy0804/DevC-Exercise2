@@ -9,3 +9,77 @@
     </center>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.w3-lobster {
+  font-family: "Lobster", serif;
+}
+</style>
+
+    <head>
+            <title>Biodata Exercise 2</title>
+        <script>
+
+            function tambah (val1, val2){
+                var hasil;
+                hasil = parseInt(val1) + parseInt(val2);
+                document.getElementById("hasil").innerHTML = hasil;
+            } 
+            function kurang (val1, val2){
+                var hasil;
+                hasil = parseInt(val1) - parseInt(val2);
+                document.getElementById("hasil").innerHTML = hasil;
+            } 
+            function kali (val1, val2){
+                var hasil;
+                hasil = parseInt(val1) * parseInt(val2);
+                document.getElementById("hasil").innerHTML = hasil;
+            } 
+            function bagi (val1, val2){
+                var hasil;
+                hasil = parseInt(val1) / parseInt(val2);
+                document.getElementById("hasil").innerHTML = hasil;
+            } 
+</script>
+</head>
+
+<body>
+    <center>
+        <div class="w3-container w3-lobster">
+            <p class="w3-xxxlarge">KALKULATOR</p>
+        </div>
+
+        <div class = 'nama'>
+                <input type = "text" id = "bilangan1" /> 
+                <input type = "text" id = "bilangan2" /> 
+                <h2 id ="hasil"></h2>
+
+                
+   
+
+            
+        <div class="w3-container">
+            <div class="w3-bar">
+                <button class="w3-bar-item w3-button w3-black" style="width:10.3%" onclick=tambah(bilangan1.value,bilangan2.value)>tambah</button>
+                <button class="w3-bar-item w3-button w3-teal" style="width:10.3%" onclick=kurang(bilangan1.value,bilangan2.value)>kurang</button>
+                <button class="w3-bar-item w3-button w3-red" style="width:10.3%" onclick=kali(bilangan1.value,bilangan2.value)>kali</button>
+                <button class="w3-bar-item w3-button w3-yellow" style="width:10.3%" onclick=bagi(bilangan1.value,bilangan2.value)>bagi</button>
+                         
+            </div>
+                        
+       
+                    
+    </center>
+
+
+    
+</body>
+</html>
